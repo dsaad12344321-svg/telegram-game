@@ -22,7 +22,7 @@ export default function Game() {
     const interval = setInterval(() => {
       setTargetVisible(true)
 
-      setTimeout(() => setTargetVisible(false), 800)
+      //setTimeout(() => setTargetVisible(false), 800)
     }, 1500)
 
     return () => clearInterval(interval)
@@ -63,3 +63,4 @@ export default function Game() {
     </div>
   )
 }
+
